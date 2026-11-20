@@ -277,7 +277,7 @@ GLYPHS["z"] = { adv: 520, ops: [L(110, 480, 430, 480, 85), L(430, 480, 110, 0, 1
 // ---------- digits: full closed bowls; 9 bowl on top, 6 bowl at bottom ----------
 GLYPHS["0"] = { adv: 620, ops: [O(320, 350, 210, 350, 110)] };
 GLYPHS["1"] = { adv: 560, ops: [L(240, 620, 380, 700, 100), L(380, 700, 380, 0, 110), L(220, 0, 520, 0, 90)] };
-GLYPHS["2"] = { adv: 620, ops: [A(320, 520, 200, 180, 20, 200, 110), L(132, 458, 520, 0, 110), L(120, 0, 540, 0, 90)] };
+GLYPHS["2"] = { adv: 620, ops: [A(320, 520, 200, 180, 180, -35, 110), L(484, 417, 120, 0, 110), L(120, 0, 540, 0, 90)] };
 GLYPHS["3"] = { adv: 620, ops: [A(320, 500, 185, 150, 300, 420, 110), A(320, 200, 195, 160, 300, 420, 110), L(413, 370, 418, 339, 100)] };
 GLYPHS["4"] = { adv: 620, ops: [L(430, 700, 150, 140, 100), L(120, 180, 520, 180, 90), L(430, 700, 430, 0, 110)] };
 GLYPHS["5"] = { adv: 620, ops: [L(140, 700, 500, 700, 100), L(140, 700, 140, 430, 100), L(140, 430, 160, 300, 95), A(320, 210, 185, 180, 150, 390, 110)] };
@@ -597,7 +597,7 @@ function main(): void {
   // three columns
   const cols = [
     { x: 26, label: "DIPLOMACY", head: "Trump Delays Iran Call To 2027", deck: "President says he will see what happens after Jan 1; no rush on war decision.", body: "President Donald Trump said he is in no rush on Iran and pushed any decision on war to 2027.", illo: "globe" },
-    { x: 362, label: "JUSTICE", head: "Court: Myanmar Genocide", deck: "UN court rules army likely meant to destroy Rohingya in 2017 crackdown.", body: "The International Court of Justice ruled Myanmar's military likely intended to destroy a substantial part of the Rohingya minority.", illo: "scales" },
+    { x: 362, label: "JUSTICE", head: "Court: Myanmar Genocide", deck: "UN court rules army likely meant to destroy Rohingya in 2017 crackdown.", body: "The Court of Justice ruled Myanmar's military likely intended to destroy a substantial part of the Rohingya minority.", illo: "scales" },
     { x: 698, label: "WEATHER", head: "Akvan Landfall: 300,000 Out", deck: "Three lakh evacuated as storm reaches Odisha; 423 rescue teams on standby.", body: "Cyclone Akvan made landfall on the Odisha coast as three lakh people were moved to safety.", illo: "cyclone" },
   ];
   vline(344, 536, 262, 1, INK);
@@ -617,7 +617,7 @@ function main(): void {
   // bottom row: two stories, illustration left, text right
   const bottom = [
     { x: 26, label: "SPACE", head: "Hayabusa2 Landing Off", deck: "Engine trouble forces Japan's probe to scrap its asteroid touchdown.", body: "Japan's Hayabusa2 probe will skip its planned asteroid landing after engine trouble, space officials said.", illo: "craft" },
-    { x: 533, label: "CONFLICT", head: "Kyiv Strikes Hit Embassies", deck: "Russian strikes damage Austrian and Dutch embassies in Kyiv.", body: "Russian strikes on Kyiv damaged the Austrian and Dutch embassies, officials said, as the war grinds on.", illo: "embassy" },
+    { x: 533, label: "CONFLICT", head: "Kyiv Strikes Hit Embassies", deck: "Russian strikes damage Austrian and Dutch embassies in Kyiv.", body: "Russian strikes damaged the Austrian and Dutch embassies in Kyiv, officials said.", illo: "embassy" },
   ];
   vline(512, 813, 158, 1, INK);
   for (const b of bottom) {
