@@ -2,7 +2,7 @@
 
 ![competition](https://make.fun/badge/news-image-20261120.svg)
 ![rank](https://make.fun/badge/news-image-20261120/abixel-stars/news-image-20261120/rank.svg)
-![reward](https://make.fun/badge/news-image-20261120/reward.svg)
+![reward](https://make.fun/badge/news-image-20261120/abixel-stars/news-image-20261120/reward.svg)
 
 One image that sums up the world's news of Friday 20 November 2026: GTA VI sales pass $1.8 billion, Trump delays any Iran decision to 2027, the UN court rules on Myanmar, Cyclone Akvan makes landfall, Hayabusa2 skips its landing, and strikes hit embassies in Kyiv.
 
